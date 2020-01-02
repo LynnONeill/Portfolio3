@@ -1,0 +1,66 @@
+* {
+    margin: 0px;
+}
+html {
+    scroll-behavior: smooth;
+}
+#biopic {
+    float: left;
+    margin-top: 25px;
+    border-radius: 50%;
+}
+#portfolio {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}    
+.navbar {
+    margin-bottom: 0px;
+}
+.introduction {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 50px;
+    margin-left: 150px;
+}
+.bio {
+    margin-top: 30px;
+    margin-left: 150px;
+}
+.title {
+    font-family: 'AbrilFatface', cursive;
+    margin-left: 150px;
+    font-size: 35px;
+}
+#top {
+    color: white;
+    background-color: #373737;
+    padding-bottom: 50px;
+}
+#portfolio-header {
+    color: white;
+    background-color: #779a8f;
+    height: 150px;
+    font-family: 'AbrilFatface', cursive;
+    padding-top: 50px;
+}
+#contact {
+    color: white;
+    background-color: #779a8f;
+    margin-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 50px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.contact {
+    font-family: 'Cormorant Garamond', serif;
+}
+.btn {
+    width: 250px;
+}
+
+/* @media screen and (min-width: 320px) { */
+    /* body { */
+        /* margin-right: 0px; */
+        /* width: 320px; */
+    /* } */
+/* } */

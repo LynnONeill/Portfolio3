@@ -1,28 +1,37 @@
-* {
+/* * { */
+    /* margin: 0px; */
+/* } */
+.container-fluid {
+    padding-right:0;
+    padding-left:0;
+    margin-right:auto;
+    margin-left:auto
+ }
+.body {
     margin: 0px;
+    padding: 0px;
+}
+.navbar {
+    margin-bottom: 0px;
 }
 html {
     scroll-behavior: smooth;
+}
+
+/* Styling for Top section / bio picture / Introduction  */
+#top {
+    color: white;
+    background-color: #373737;
+    padding-bottom: 50px;
 }
 #biopic {
     float: left;
     margin-top: 25px;
     border-radius: 50%;
 }
-#portfolio {
-    margin-top: 25px;
-    margin-bottom: 25px;
-}    
-.navbar {
-    margin-bottom: 0px;
-}
 .introduction {
     font-family: 'Abril Fatface', cursive;
     font-size: 50px;
-    margin-left: 150px;
-}
-.bio {
-    margin-top: 30px;
     margin-left: 150px;
 }
 .title {
@@ -30,10 +39,15 @@ html {
     margin-left: 150px;
     font-size: 35px;
 }
-#top {
-    color: white;
-    background-color: #373737;
-    padding-bottom: 50px;
+.bio {
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+/* Styling for Middle Section / Portfolio */
+#middle {
+    width: 100%;
+    margin: 0px;
 }
 #portfolio-header {
     color: white;
@@ -42,6 +56,57 @@ html {
     font-family: 'AbrilFatface', cursive;
     padding-top: 50px;
 }
+.img-1 {
+    margin: 0px;
+    padding: 0px;
+}
+.img-2 {
+    margin: 0px;
+    padding: 0px;
+}
+.img-3 {
+    margin: 0px;
+    right: 0px;
+    padding: 0px;
+}
+.inspect {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    line-height: 50px;
+    width: 33.3%;
+    opacity: .2;
+}
+.link {
+    position: absolute;
+    bottom: 0px;
+    left: 33.3%;
+    line-height: 50px;
+    width: 33.3%;
+    opacity: .3;
+}
+.image {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    line-height: 50px;
+    width: 33.3%;
+    opacity: .3;
+}
+.image:hover {
+    background-color: black;
+    color: white;
+}
+.link:hover {
+    background-color: black;
+    color: white;
+}
+.inspect:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Styling for Bottom Section / Contact */
 #contact {
     color: white;
     background-color: #779a8f;
@@ -57,10 +122,3 @@ html {
 .btn {
     width: 250px;
 }
-
-/* @media screen and (min-width: 320px) { */
-    /* body { */
-        /* margin-right: 0px; */
-        /* width: 320px; */
-    /* } */
-/* } */

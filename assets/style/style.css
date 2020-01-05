@@ -1,6 +1,5 @@
-/* * { */
-    /* margin: 0px; */
-/* } */
+
+
 .container-fluid {
     padding-right:0;
     padding-left:0;
@@ -11,8 +10,14 @@
     margin: 0px;
     padding: 0px;
 }
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
 .navbar {
     margin-bottom: 0px;
+    opacity: 0.9; 
+    filter:(opacity=50); 
 }
 html {
     scroll-behavior: smooth;
@@ -30,12 +35,12 @@ html {
     border-radius: 50%;
 }
 .introduction {
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Buda', cursive;
     font-size: 50px;
     margin-left: 150px;
 }
 .title {
-    font-family: 'AbrilFatface', cursive;
+    font-family: 'Buda', cursive;
     margin-left: 150px;
     font-size: 35px;
 }
@@ -45,30 +50,44 @@ html {
 }
 
 /* Styling for Middle Section / Portfolio */
-#middle {
-    width: 100%;
-    margin: 0px;
-}
 #portfolio-header {
     color: white;
     background-color: #779a8f;
     height: 150px;
-    font-family: 'AbrilFatface', cursive;
+    font-family: 'Buda', cursive;
     padding-top: 50px;
+}
+.assignmentTitle {
+    color: white;
+    background-color: #779a8f;
+    font-family: 'Buda', cursive;
 }
 .img-1 {
     margin: 0px;
     padding: 0px;
+    /* position: absolute; */
+    /* left: 0px; */
+    /* right:0px; */
+}
+.img-1 img:nth-child(2) {
+    display: none;
 }
 .img-2 {
     margin: 0px;
     padding: 0px;
+}
+.img-2 img:nth-child(2) {
+    display: none
 }
 .img-3 {
     margin: 0px;
     right: 0px;
     padding: 0px;
 }
+.img-3 img:nth-child(2) {
+    display: none;
+}
+
 .inspect {
     position: absolute;
     bottom: 0px;
@@ -80,7 +99,7 @@ html {
 .link {
     position: absolute;
     bottom: 0px;
-    left: 33.3%;
+    right: 0px;
     line-height: 50px;
     width: 33.3%;
     opacity: .3;
@@ -88,7 +107,7 @@ html {
 .image {
     position: absolute;
     bottom: 0px;
-    right: 0px;
+    left: 33.3%;
     line-height: 50px;
     width: 33.3%;
     opacity: .3;
@@ -97,6 +116,7 @@ html {
     background-color: black;
     color: white;
 }
+    
 .link:hover {
     background-color: black;
     color: white;
@@ -117,7 +137,7 @@ html {
     padding-bottom: 35px;
 }
 .contact {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Buda', cursive;
 }
 .btn {
     width: 250px;

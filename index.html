@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="./assets/style/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Buda:300&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet"> -->
     <link rel="stylesheet" href="./assets/style/style.css">
     <link rel="shortcut icon" href="assets/images/cropped-L-favicon.png" />
 
@@ -23,8 +25,8 @@
 <body>
     <div class="container-fluid">
         <!--Begin Navigation Bar ---------------------------------------------------------------------->
-        <div class="row">
-            <nav class="col-12 navbar navbar-default navbar-expand-sm navbar-light bg-light sticky-top">
+        <div class="row sticky-top">
+            <nav class="col-12 navbar navbar-default navbar-expand-sm navbar-light">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
                     aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -57,133 +59,147 @@
                     <h3 class="introduction name">Lynn O'Neill</h3>
                 </header>
                 <h5 class="title">designer</h5>
-                <p class="bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab consectetur suscipit
-                    adipisci
-                    est asperiores libero qui, laudantium officiis molestias esse veniam cumque repellendus dolorem
-                    tempore
-                    voluptate labore doloribus fugiat a. </p>
+                <p class="bio">I am a successful business owner and aspiring developer. Over the years I have spent
+                    endless hours in my quest to find solutions for common business hurdles in my industry. There is an
+                    overwhelming gap in programing software targeting the construction and manufacturing fields. I am
+                    currently a student studying web-development. My goal is to create and test programs with my company
+                    that I can one day offer to other businesses with similar struggles. </p>
             </div>
             <div id="top" class="image-wrapper d-flex col-md-6 col-sm-12">
-                <p><img id="biopic" class="mx-auto d-block d-sm-flex" src="assets/images/Me.jpg" alt="Lynn" width="300"
+                <p><img id="biopic" class="mx-auto d-block d-sm-flex" src="assets/images/me.jpg" alt="Lynn" width="300"
                         height="300">
             </div>
         </div>
         <!-- End Bio Section ---------------------------------------------------------------------------------->
 
         <!-- Begin Portfolio Section -------------------------------------------------------------------------->
-        <div id="middle" class="m-0 p-0" width="100%">
-            <div class="row text-center">
-                <div class="col-12">
-                    <h1 class="mb-0" id="portfolio-header">Portfolio</h1>
-                </div>
-            </div>
-
-            <div class="row m-0 p-0">
-                <div class="img-1 col-lg-4 col-md-4 col-sm-12">
-                    <img src="assets/images/planner.png" alt="dayplanner" width="100%" height="325px">
-                    <button class="inspect" href="https://github.com/LynnONeill/DayPlanner"><i
-                            class="fas fa-search"></i></button>
-                    <button class="link" href="https://lynnoneill.github.io/DayPlanner/"><i
-                            class="fas fa-link"></i></button>
-                    <button class="image" src="assets/images/planner2"><i class="fas fa-image"></i></button>
-                </div>
-                <div class="img-2 col-lg-4 col-md-4 col-sm-12">
-                    <img src="assets/images/weatherdashboard.png" alt="weather" width="100%" height="325px">
-                    <button class="inspect" href="https://github.com/LynnONeill/weatherDashboard"><i
-                            class="fas fa-search"></i></button>
-                    <button class="link" href="https://lynnoneill.github.io/weatherDashboard/"><i
-                            class="fas fa-link"></i></button>
-                    <button class="image"><i class="fas fa-image"></i></button>
-                </div>
-                <div class="img-3 col-lg-4 col-md-4 col-sm-12">
-                    <img src="assets/images/stargazer.png" alt="stargazer" width=100% height="325px">
-                    <button class="inspect" href="https://github.com/jhamilton20/projectone"><i
-                            class="fas fa-search"></i></button>
-                    <button class="link" href="https://jhamilton20.github.io/projectone/"><i
-                            class="fas fa-link"></i></button>
-                    <button class="image"><i class="fas fa-image"></i></button>
-                </div>
+        <div class="row text-center" id="middle">
+            <div class="col-12 px-0">
+                <h1 class="mb-0" id="portfolio-header">Portfolio</h1>
             </div>
         </div>
-        <!-- End Portfolio Section ---------------------------------------------------------------------------->
 
-        <!-- Begin Contact Section ---------------------------------------------------------------------------->
-        <section id="contact">
-
-            <div class="row justify-content-center">
-                <div class="col-md-3">
-                    <h2 class="contact h1-responsive text-center my-4">I look forward to hearing from you!</h2>
-                    <ul class="list-group flex-md-row justify-content-center">
-                        <a href="https://www.linkedin.com/in/lynn-o-neill-03b51a154/" target="_blank"><i
-                                class="list-group-item fab fa-linkedin mx-2"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/LynnONeill" target="_blank"><i
-                                    class="list-group-item fab fa-github mx-2"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <!--Contact Form ------------------------------------------------------------------------------>
-                <div id="bottom" class="col-md-9 mb-md-0 mb-5">
-                    <form id="contact-form" name="contact-form">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="md-form mb-0">
-                                    <input type="text" id="name" name="name" class="form-control">
-                                    <label for="name" class="">Your name</label>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="md-form mb-0">
-                                    <input type="text" id="email" name="email" class="form-control">
-                                    <label for="email" class="">Your email</label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="md-form mb-0">
-                                    <input type="text" id="subject" name="subject" class="form-control">
-                                    <label for="subject" class="">Subject</label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="md-form">
-                                    <textarea type="text" id="message" name="message" rows="2"
-                                        class="form-control md-textarea"></textarea>
-                                    <label for="message">Your message</label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="text-center text-md-left">
-                            <button id="submit" class="btn btn-primary btn-dark btn-lg" type="submit">Send</button>
-                            <!-- <a type="button" class="btn btn-dark text-white btn-lg">Send</a> -->
-                            <!-- onclick="document.getElementById('contact-form').submit();">Send</a> -->
-                        </div>
-                    </form>
-                    <!--Contact Submit Button --------------------------------------------------------------------->
-
-                </div>
+        <div class="row assignmentTitle">
+            <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+                <h4>Day Planner</h4>
             </div>
-        </section>
-        <!-- End Contact Section ---------------------------------------------------------------------------------->
-
-        <!-- Begin Footer ----------------------------------------------------------------------------------------->
-        <footer class="page-footer font-small bg-dark pt-4">
-            <div class="container-fluid text-center text-md-left">
-                <hr class="clearfix w-100 d-md-none pb-3">
+            <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+                <h4>Weather Dashboard</h4>
             </div>
-
-            <!-- Copyright -->
-            <div class="footer-copyright text-center py-3 text-gray">© 2020 Copyright:
-                <!-- <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a> -->
+            <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+                <h4>Stargazer Project</h4>
             </div>
-            <!-- Copyright -->
+        </div>
 
-        </footer>
-        <!-- End Footer ------------------------------------------------------------------------------------------->
+        <div class="img-container row">
+            <div class="img-1 col-lg-4 col-md-4 col-sm-12">
+                <img id="planner-port" src="assets/images/planner.png"  alt="dayplanner" width="100%" height="325px">
+                <img id="planner-port2" src="assets/images/planner2.png" alt="dayplanner" width="100%" height="325px">
+                <button class="inspect" href="https://github.com/LynnONeill/DayPlanner"><i
+                        class="fas fa-search"></i></button>
+                <button class="link" href="https://lynnoneill.github.io/DayPlanner/"><i
+                        class="fas fa-link"></i></button>
+                <button class="image"><i class="fas fa-image"></i></button>
+            </div>
+            <div class="img-2 col-lg-4 col-md-4 col-sm-12">
+                <img class="weather-port" src="assets/images/weatherdashboard.png" alt="weather" width="100%" height="325px">
+                <img class="weather-port2" src="assets/images/weatherdashboard2.png" alt="weather" width="100%" height="325px">
+                <button class="inspect" href="https://github.com/LynnONeill/weatherDashboard"><i
+                        class="fas fa-search"></i></button>
+                <button class="link" href="https://lynnoneill.github.io/weatherDashboard/"><i
+                        class="fas fa-link"></i></button>
+                <button class="image"><i class="fas fa-image"></i></button>
+            </div>
+            <div class="img-3 col-lg-4 col-md-4 col-sm-12">
+                <img class="stargazer-port" src="assets/images/stargazer.png" alt="stargazer" width=100% height="325px">
+                <img class="stargazer-port2" src="assets/images/stargazer2.png" alt="stargazer" width=100% height="325px">
+                <button class="inspect" href="https://github.com/jhamilton20/projectone"><i
+                        class="fas fa-search"></i></button>
+                <button class="link" href="https://jhamilton20.github.io/projectone/"><i
+                        class="fas fa-link"></i></button>
+                <button class="image"><i class="fas fa-image"></i></button>
+            </div>
+        </div>
+    </div>
+    <!-- End Portfolio Section ---------------------------------------------------------------------------->
+
+    <!-- Begin Contact Section ---------------------------------------------------------------------------->
+    <section id="contact">
+
+        <div class="row justify-content-center">
+            <div class="col-md-3">
+                <h2 class="contact h1-responsive text-center my-4">I look forward to hearing from you!</h2>
+                <ul class="list-group flex-md-row justify-content-center">
+                    <a href="https://www.linkedin.com/in/lynn-o-neill-03b51a154/" target="_blank"><i
+                            class="list-group-item fab fa-linkedin mx-2"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/LynnONeill" target="_blank"><i
+                                class="list-group-item fab fa-github mx-2"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <!--Contact Form ------------------------------------------------------------------------------>
+            <div id="bottom" class="col-md-9 mb-md-0 mb-5">
+                <form id="contact-form" name="contact-form">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="name" name="name" class="form-control">
+                                <label for="name" class="">Your name</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="email" name="email" class="form-control">
+                                <label for="email" class="">Your email</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form mb-0">
+                                <input type="text" id="subject" name="subject" class="form-control">
+                                <label for="subject" class="">Subject</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form">
+                                <textarea type="text" id="message" name="message" rows="2"
+                                    class="form-control md-textarea"></textarea>
+                                <label for="message">Your message</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center text-md-left">
+                        <button id="submit" class="btn btn-primary btn-dark btn-lg" type="submit">Send</button>
+                        <!-- <a type="button" class="btn btn-dark text-white btn-lg">Send</a> -->
+                        <!-- onclick="document.getElementById('contact-form').submit();">Send</a> -->
+                    </div>
+                </form>
+                <!--Contact Submit Button --------------------------------------------------------------------->
+
+            </div>
+        </div>
+    </section>
+    <!-- End Contact Section ---------------------------------------------------------------------------------->
+
+    <!-- Begin Footer ----------------------------------------------------------------------------------------->
+    <footer class="page-footer font-small bg-dark pt-4">
+        <div class="container-fluid text-center text-md-left">
+            <hr class="clearfix w-100 d-md-none pb-3">
+        </div>
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3 text-gray">© 2020 Copyright:
+            <!-- <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a> -->
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- End Footer ------------------------------------------------------------------------------------------->
     </div>
 </body>
 

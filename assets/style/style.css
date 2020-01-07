@@ -65,19 +65,22 @@ html {
 .img-1 {
     margin: 0px;
     padding: 0px;
-    /* position: absolute; */
-    /* left: 0px; */
-    /* right:0px; */
 }
 .img-1 img:nth-child(2) {
     display: none;
+    position: absolute;
+    left: 0px;
+    top: 0px;
 }
 .img-2 {
     margin: 0px;
     padding: 0px;
 }
 .img-2 img:nth-child(2) {
-    display: none
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 0px;
 }
 .img-3 {
     margin: 0px;
@@ -86,6 +89,9 @@ html {
 }
 .img-3 img:nth-child(2) {
     display: none;
+    position: absolute;
+    left: 0px;
+    top: 0px;
 }
 
 .inspect {
@@ -93,7 +99,7 @@ html {
     bottom: 0px;
     left: 0px;
     line-height: 50px;
-    width: 33.3%;
+    width: 50%;
     opacity: .2;
 }
 .link {
@@ -101,7 +107,7 @@ html {
     bottom: 0px;
     right: 0px;
     line-height: 50px;
-    width: 33.3%;
+    width: 50%;
     opacity: .3;
 }
 .image {

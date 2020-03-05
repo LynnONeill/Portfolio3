@@ -62,6 +62,13 @@ html {
     background-color: #779a8f;
     font-family: 'Buda', cursive;
 }
+.assignmentTitle2 {
+    height: 120px;
+    background-color: #779a8f;
+    color: white;
+    font-family: 'Buda', cursive;
+    padding-top: 80px;
+}
 .img-1 {
     margin: 0px;
     padding: 0px;
